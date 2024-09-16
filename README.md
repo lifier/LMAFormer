@@ -52,6 +52,7 @@ Pretrained Swin backbones can be downloaded from their corresponding repository.
 - [Swin-S](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_small_patch244_window877_kinetics400_1k.pth)
 - [Swin-B](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_base_patch244_window877_kinetics400_22k.pth)
 - [Resnet-101 COCO](https://drive.google.com/file/d/1NGuaew1d0x0kdK2XR_J3Vlmc6OGtOe58/view?usp=sharing)
+
 If you are interested in evaluating only, you can download the selected trained LMAFormer checkpoints from the links in the results table.   
 
 
