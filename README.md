@@ -47,6 +47,7 @@ Here is the list of datasets used.
 - [IRDST](https://drive.google.com/file/d/1sb-32pydlpXvlNxwx9niT2t6KP9oMJID/view?usp=sharing)
 - [TSIRMT](https://drive.google.com/drive/folders/1aWDNdUWkTOuV3fILbgLDEqM2N2erW05n?usp=sharing)
 
+The dataset division is subject to the method in the Datasets folder.
 ## Download Trained Models 
 Pretrained Swin backbones can be downloaded from their corresponding repository. 
 - [Swin-S](https://github.com/SwinTransformer/storage/releases/download/v1.0.4/swin_small_patch244_window877_kinetics400_1k.pth)
@@ -86,9 +87,9 @@ The models were trained and tested using a single NVIDIA 4080 GPU.
 ### Results on NUDT-MIRSDT, IRDST and TSIRMT
 | Dataset  | Checkpoint                                                                                        | IoU  | nIoU | Pd | Fa |
 |-----------|---------------------------------------------------------------------------------------------------|------|------|------|------|
-| NUDT-MIRSDT | [checkpoint](https://drive.google.com/drive/folders/0ABYEIdgnW9YvUk9PVA)  | 73.26 | 73.63 | 99.68 | 0.71 |
-| IRDST | [checkpoint](https://drive.google.com/drive/folders/0ABYEIdgnW9YvUk9PVA)  | 59.17 | 57.51 | 99.64 | 14.95 |
-| TSIRMT | [checkpoint](https://drive.google.com/drive/folders/0ABYEIdgnW9YvUk9PVA)  | 65.89 | 65.63 | 86.10 | 185.78 |
+| NUDT-MIRSDT | [checkpoint](https://drive.google.com/file/d/1jBYw9jWAhTf7_pCRNWLfBMflhMq25_Vn/view?usp=sharing)  | 73.26 | 73.63 | 99.68 | 0.71 |
+| IRDST | [checkpoint](https://drive.google.com/file/d/1LY2OWb3FyXB568vHpakJog1_qaDKOYZO/view?usp=sharing)  | 59.17 | 57.51 | 99.64 | 14.95 |
+| TSIRMT | [checkpoint](https://drive.google.com/file/d/1lnVRmUSnrqZIF_j50z5hovpqiaNB4STY/view?usp=sharing)  | 65.89 | 65.63 | 86.10 | 185.78 |
 
 ### Acknowledgement
 We would like to thank the open-source projects with  special thanks to [DETR](https://github.com/facebookresearch/detr)  and [VisTR](https://github.com/Epiphqny/VisTR) for making their code public. Part of the code in our project are collected and modified from several open source repositories.
