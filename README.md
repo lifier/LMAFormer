@@ -3,7 +3,9 @@
 <hr>
 
 # Abstract
+<p align="justify">
 In temporal infrared small target detection, it is crucial to leverage the disparities in spatio-temporal characteristics between the target and the background to distinguish the former. However, remote imaging and the relative motion between the detection platform and the background cause significant coupling of spatio-temporal characteristics, making target detection highly challenging. To address these challenges, we propose a network named LMAFormer. First, we introduce a local motion-aware spatio-temporal attention mechanism that leverages motion and temporal energy variations between infrared small targets and backgrounds to extract locally salient spatio-temporal features of targets. Second, we employ a multi-scale fusion transformer encoder that computes self-attention weights across and within scales during encoding, acquiring multi-scale global spatio-temporal information for enhanced motion background modeling. Lastly, we propose a multi-frame joint query decoder. The shallowest feature map after multi-scale feature propagation is mapped to initial query weights, which are refined through grouped convolutions to generate grouped query vectors. These are jointly optimized to encapsulate rich multi-frame details, strengthening motion background modeling and target feature representation, improving prediction accuracy. Experimental results on the NUDT-MIRSDT, IRDST and the established TSIRMT datasets demonstrate that our network outperforms state-of-the-art (SOTA) methods.
+</p>
 
 
 
