@@ -1,5 +1,5 @@
 ## PyTorch implementation of "LMAFormer: Local Motion Aware Transformer for Small Moving Infrared Target Detection" 
-[Project](https://github.com/lifier/LMAFormer-master) - [Paper](Link to upload the paper after acceptance)
+[Project](https://github.com/lifier/LMAFormer-master) - [Paper](The download link will be uploaded after the paper is accepted.)
 <hr>
 
 # Abstract
