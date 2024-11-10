@@ -31,7 +31,10 @@ The experiments were done on Windows11 with python 3 using anaconda environment.
 
 * Install PyTorch from [here](https://pytorch.org/get-started/locally/). 
 
-
+* Install MultiScaleDeformableAttention module:
+  ```setup
+  python ./MFIRSTD/models/ops/setup.py install
+  
 * Install other requirements:
 
   ```setup
@@ -47,6 +50,7 @@ Here is the list of datasets used.
 - [IRDST](https://drive.google.com/file/d/1sb-32pydlpXvlNxwx9niT2t6KP9oMJID/view?usp=sharing)
 - [TSIRMT](https://drive.google.com/drive/folders/1aWDNdUWkTOuV3fILbgLDEqM2N2erW05n?usp=sharing)
 
+The NUDT-MIRSDT dataset requires the 'rearrange_dataset.py' program for path reconstruction, with 'rearrange_dataset.py' located at '/Datasets/rearrange_dataset.py'.
 The dataset division is subject to the method in the Datasets folder.
 ## Download Trained Models 
 Pretrained Swin backbones can be downloaded from their corresponding repository. 
