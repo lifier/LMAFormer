@@ -1,5 +1,5 @@
 ## PyTorch implementation of "LMAFormer: Local Motion Aware Transformer for Small Moving Infrared Target Detection" 
-[Project](https://github.com/lifier/LMAFormer-master) - [Paper](The download link will be uploaded after the paper is accepted.)
+[Project](https://github.com/lifier/LMAFormer) - [Paper](https://ieeexplore.ieee.org/document/10758760)
 <hr>
 
 # Abstract
@@ -102,11 +102,15 @@ We would like to thank the open-source projects with  special thanks to [DETR](h
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follow.
 
 ```
-@inproceedings{LMAFormer24,
-  title={ {LMAFormer}: Local Motion Aware Transformer for Small Moving Infrared Target Detection},
-  author={Yuanxin Huang, Xiyang Zhi, JianmingHu, Lijian Yu, Qichao Han, Wenbin Chen, Wei Zhang},
-  booktitle={IEEE Transactions on Geoscience and Remote Sensing},
-  year={2024}
-}
+@ARTICLE{10758760,
+  author={Huang, Yuanxin and Zhi, Xiyang and Hu, Jianming and Yu, Lijian and Han, Qichao and Chen, Wenbin and Zhang, Wei},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={LMAFormer: Local Motion Aware Transformer for Small Moving Infrared Target Detection}, 
+  year={2024},
+  volume={62},
+  number={},
+  pages={1-17},
+  keywords={Feature extraction;Object detection;Transformers;Decoding;Three-dimensional displays;Computational modeling;Deep learning;Annotations;Visualization;Urban areas;Infrared small moving target detection;local motion aware;multiframe joint query;multiscale transformer encoder},
+  doi={10.1109/TGRS.2024.3502663}}
 ```
 
